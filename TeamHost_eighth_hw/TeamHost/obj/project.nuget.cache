@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wa7MQyG/bkcgbL+oCQAkBuvGW9Gxl5cYFGUy52M1hDimJkg0LClol5W6Yfrp+p3k+9JZuk2z8ye9lXGXk1qBhg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\korik\\source\\repos\\ORIS_Sem_2\\TeamHost_eighth_hw\\TeamHost\\TeamHost.WebAPI.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект TeamHost.Infrastructure несовместим с net7.0 (.NETCoreApp,Version=v7.0). Проект TeamHost.Infrastructure поддерживает: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "TeamHost.Infrastructure",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект TeamHost.Domain несовместим с net7.0 (.NETCoreApp,Version=v7.0). Проект TeamHost.Domain поддерживает: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "TeamHost.Domain",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект TeamHost.Application несовместим с net7.0 (.NETCoreApp,Version=v7.0). Проект TeamHost.Application поддерживает: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "TeamHost.Application",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект TeamHost.Persistence несовместим с net7.0 (.NETCoreApp,Version=v7.0). Проект TeamHost.Persistence поддерживает: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "TeamHost.Persistence",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
