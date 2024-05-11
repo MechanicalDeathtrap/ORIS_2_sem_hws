@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "dgSpecHash": "QARHIjbLSLZtiPHREX+jB5hu3Juee2iKxN+b81HKOYA3RqyY+eskd9SHSJljo+UZMw0vo/iUtZzs/DYnwl8Xsg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\korik\\source\\repos\\ORIS_Sem_2\\TeamHost_sixth_hw — копия\\TeamHost\\TeamHost.WebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\korik\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\korik\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\korik\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект TeamHost.Infrastructure несовместим с net7.0 (.NETCoreApp,Version=v7.0). Проект TeamHost.Infrastructure поддерживает: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "TeamHost.Infrastructure",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект TeamHost.Domain несовместим с net7.0 (.NETCoreApp,Version=v7.0). Проект TeamHost.Domain поддерживает: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "TeamHost.Domain",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект TeamHost.Application несовместим с net7.0 (.NETCoreApp,Version=v7.0). Проект TeamHost.Application поддерживает: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "TeamHost.Application",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект TeamHost.Persistence несовместим с net7.0 (.NETCoreApp,Version=v7.0). Проект TeamHost.Persistence поддерживает: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "TeamHost.Persistence",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

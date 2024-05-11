@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamHost.WebAPI", "TeamHost\TeamHost.WebAPI.csproj", "{C336D259-16CE-4A37-A4DA-8A23A3471531}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamHost.Persistence", "D:\Загрузки\ORIS_2-develop\ORIS_2-develop\lesson_6\TeamHostа\TeamHost.Persistence\TeamHost.Persistence.csproj", "{7F1C31A1-4D41-425B-B996-F557DDFE4444}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamHost.Infrastructure", "D:\Загрузки\ORIS_2-develop\ORIS_2-develop\lesson_6\TeamHostа\TeamHost.Infrastructure\TeamHost.Infrastructure.csproj", "{2F1A8982-9562-4C8B-B64A-51D17377C0C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamHost.Domain", "D:\Загрузки\ORIS_2-develop\ORIS_2-develop\lesson_6\TeamHostа\TeamHost.Domain\TeamHost.Domain.csproj", "{E4AFA8DA-D8DD-4C2B-B4CC-9C801D67003C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamHost.Application", "D:\Загрузки\ORIS_2-develop\ORIS_2-develop\lesson_6\TeamHostа\TeamHost.Application\TeamHost.Application.csproj", "{243035C2-ACC6-4A60-BC4F-36671877F2D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C336D259-16CE-4A37-A4DA-8A23A3471531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C336D259-16CE-4A37-A4DA-8A23A3471531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C336D259-16CE-4A37-A4DA-8A23A3471531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C336D259-16CE-4A37-A4DA-8A23A3471531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F1C31A1-4D41-425B-B996-F557DDFE4444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1C31A1-4D41-425B-B996-F557DDFE4444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F1C31A1-4D41-425B-B996-F557DDFE4444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F1C31A1-4D41-425B-B996-F557DDFE4444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F1A8982-9562-4C8B-B64A-51D17377C0C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1A8982-9562-4C8B-B64A-51D17377C0C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1A8982-9562-4C8B-B64A-51D17377C0C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1A8982-9562-4C8B-B64A-51D17377C0C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4AFA8DA-D8DD-4C2B-B4CC-9C801D67003C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4AFA8DA-D8DD-4C2B-B4CC-9C801D67003C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4AFA8DA-D8DD-4C2B-B4CC-9C801D67003C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4AFA8DA-D8DD-4C2B-B4CC-9C801D67003C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243035C2-ACC6-4A60-BC4F-36671877F2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243035C2-ACC6-4A60-BC4F-36671877F2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243035C2-ACC6-4A60-BC4F-36671877F2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243035C2-ACC6-4A60-BC4F-36671877F2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C047696B-1252-4E09-B1B0-B05D1731848D}
+	EndGlobalSection
+EndGlobal
