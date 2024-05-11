@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/KRQT12l1DI5JcL083Ws/U/JxtZFq3d2Y9kb5dU+3aOkx63NbXKXkGu7x2fiuIZ//VBBBW5OXeyOUJRfFbP99Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\korik\\source\\repos\\MechanicalDeathtrap\\ReposCsNew\\TeamHostTest\\CleanArchitectureDemo.Domain\\CleanArchitectureDemo.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\korik\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\korik\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\korik\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,104 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Auth\Data\" />
+    <Folder Include="Areas\Auth\Models\" />
+    <Folder Include="Areas\Chats\Data\" />
+    <Folder Include="Areas\Chats\Models\" />
+    <Folder Include="Areas\Community\Data\" />
+    <Folder Include="Areas\Community\Models\" />
+    <Folder Include="Areas\Favourites\Data\" />
+    <Folder Include="Areas\Favourites\Models\" />
+    <Folder Include="Areas\Friends\Data\" />
+    <Folder Include="Areas\Friends\Models\" />
+    <Folder Include="Areas\GameProfile\Data\" />
+    <Folder Include="Areas\GameProfile\Models\" />
+    <Folder Include="Areas\Market\Data\" />
+    <Folder Include="Areas\Market\Models\" />
+    <Folder Include="Areas\Profile\Data\" />
+    <Folder Include="Areas\Profile\Models\" />
+    <Folder Include="Areas\Store\Data\" />
+    <Folder Include="Areas\Store\Models\" />
+    <Folder Include="Areas\Streams\Data\" />
+    <Folder Include="Areas\Streams\Models\" />
+    <Folder Include="Areas\Wallet\Data\" />
+    <Folder Include="Areas\Wallet\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="D:\Загрузки\ORIS_2-develop\ORIS_2-develop\lesson_6\TeamHostа\TeamHost.Application\TeamHost.Application.csproj" />
+    <ProjectReference Include="D:\Загрузки\ORIS_2-develop\ORIS_2-develop\lesson_6\TeamHostа\TeamHost.Domain\TeamHost.Domain.csproj" />
+    <ProjectReference Include="D:\Загрузки\ORIS_2-develop\ORIS_2-develop\lesson_6\TeamHostа\TeamHost.Infrastructure\TeamHost.Infrastructure.csproj" />
+    <ProjectReference Include="D:\Загрузки\ORIS_2-develop\ORIS_2-develop\lesson_6\TeamHostа\TeamHost.Persistence\TeamHost.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Areas\Chats\Views\Home\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Areas\Favourites\Views\Home\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Areas\Friends\Views\Home\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Areas\Profile\Views\Home\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Areas\Wallet\Views\Home\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Home\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Home\Privacy.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Error.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\_Header.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\_Layout.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\_SideBar.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\_ValidationScriptsPartial.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\_ViewImports.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\_ViewStart.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
